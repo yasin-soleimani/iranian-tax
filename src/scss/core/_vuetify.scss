@@ -1,0 +1,13 @@
+.v-application {
+  font-family: Estedad !important;
+  font-weight: 500;
+
+  [class*="text-"] {
+    font-family: Estedad !important;
+    font-weight: 500 !important;
+  }
+}
+
+.v-btn {
+  letter-spacing: normal !important;
+}

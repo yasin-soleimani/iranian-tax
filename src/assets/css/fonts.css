@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/ttf/Estedad-Black.ttf");
+  src: /* IE6-8 */ url("../fonts/woff2/Estedad-Black.woff2") format("woff2"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/Estedad-Black.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/ttf/Estedad-ExtraBold.ttf");
+  src: /* IE6-8 */ url("../fonts/woff2/Estedad-ExtraBold.woff2") format("woff2"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/ttf/Estedad-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/ttf/Estedad-Bold.ttf");
+  src:  /* IE6-8 */ url("../fonts/woff2/Estedad-Bold.woff2") format("woff2"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/Estedad-Bold.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/ttf/Estedad-SemiBold.ttf");
+  src:  /* IE6-8 */ url("../fonts/woff2/Estedad-SemiBold.woff2") format("woff2"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/Estedad-SemiBold.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/ttf/Estedad-Medium.ttf");
+  src: /* IE6-8 */ url("../fonts/woff2/Estedad-Medium.woff2") format("woff2"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/Estedad-Medium.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ttf/Estedad-Regular.ttf");
+  src: /* IE6-8 */ url("../fonts/woff2/Estedad-Regular.woff2") format("woff2"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/Estedad-Regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/ttf/Estedad-Light.ttf");
+  src: /* IE6-8 */ url("../fonts/woff2/Estedad-Light.woff2") format("woff2"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/Estedad-Light.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/ttf/Estedad-ExtraLight.ttf");
+  src: /* IE6-8 */ url("../fonts/woff2/Estedad-ExtraLight.woff2")
+      format("woff2"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/ttf/Estedad-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Estedad;
+  font-style: normal;
+  font-weight: thin;
+  src: url("../fonts/ttf/Estedad-Thin.ttf");
+  src: /* IE6-8 */ url("../fonts/woff2/Estedad-Thin.woff2") format("woff2"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/ttf/Estedad-Thin.ttf")
+      format("truetype");
+}
