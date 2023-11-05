@@ -476,6 +476,16 @@ export const PANEL_ACTIONS: ActionTree<PanelState, RootState> = {
           response.data.data
         );
 
+        const data = { ids: [invoiceId] };
+        panelService
+          .getStatusInvoices(data)
+          .then((response) => {
+            context.state.errorListSingleInvoice = response?.data?.data[0];
+          })
+          .catch((error) => {
+            ToggleSnackbar("error", error.response.data.message);
+          });
+
         router.push({ name: "invoiceUpdating" });
       })
       .catch((error) => {

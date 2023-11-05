@@ -1,6 +1,6 @@
 <template>
   <div class="mx-3 pa-3">
-    <span class="text-h6">لیست فاکتور های شما</span>
+    <span class="text-h6">لیست صورت حساب های شما</span>
     <!-- choose the type of invoice list -->
     <type-of-invoice-list />
 

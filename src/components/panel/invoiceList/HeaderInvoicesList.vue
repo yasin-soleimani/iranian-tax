@@ -80,7 +80,7 @@
           <td class="text-center">
             {{ showStatus(item.status) }}
           </td>
-          <td class="text-center d-flex">
+          <td class="text-center">
             <v-btn
               class="ma-2"
               @click="pushToInvoiceUpdating(item._id)"
@@ -105,7 +105,7 @@
             color="success"
             :disabled="getInvoiceIds.length < 1"
           >
-            استعلام فاکتور های انتخاب شده
+            استعلام صورت حساب های انتخاب شده
           </v-btn>
           <v-btn
             class="mx-2"
@@ -113,7 +113,7 @@
             color="primary"
             :disabled="getInvoiceIds.length < 1"
           >
-            ارسال فاکتور های انتخاب شده
+            ارسال صورت حساب های انتخاب شده
           </v-btn>
         </div>
       </div>
@@ -145,7 +145,7 @@ export default Vue.extend({
         "الگو صورت حساب",
         "وضعیت",
         "خدمات",
-        "ثبت فاکتور",
+        "ثبت صورت حساب",
       ],
     };
   },

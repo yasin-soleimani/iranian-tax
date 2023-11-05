@@ -35,6 +35,7 @@ export interface PanelState {
   invoiceIds: string[];
   statusInvoiceData: any;
   invoicesItemWithId: any[];
+  errorListSingleInvoice: any;
 }
 
 const INITIAL_panel: PanelState = {
@@ -197,6 +198,9 @@ const INITIAL_panel: PanelState = {
 
   // status invoice data (get from database)
   statusInvoiceData: null,
+
+  // error list single invoice
+  errorListSingleInvoice: null,
 };
 
 export const panel: Module<PanelState, RootState> = {

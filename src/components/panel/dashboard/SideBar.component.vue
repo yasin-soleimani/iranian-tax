@@ -58,10 +58,10 @@ export default Vue.extend({
       sideBarMenu: [
         { title: "تنظیمات حساب کاربری", pathName: "profile" },
         { title: "ثبت نام مشتری", pathName: "customerRegistration" },
-        { title: "ثبت فاکتور", pathName: "selectInvoiceType" },
-        { title: "لیست فاکتور ها", pathName: "invoicesList" },
+        { title: "ثبت صورت حساب", pathName: "selectInvoiceType" },
+        { title: "لیست صورت حساب ها", pathName: "invoicesList" },
         //TODO:
-        // { title: "گزارشات فاکتور ها", pathName: "" },
+        // { title: "گزارشات صورت حساب ها", pathName: "" },
         // { title: "مالی", pathName: "" },
         // { title: "درباره ما", pathName: "" },
       ],

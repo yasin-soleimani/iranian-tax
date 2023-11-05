@@ -5,7 +5,9 @@
     min-width="100%"
     max-width="100%"
   >
-    <h3 class="font-weight-medium mx-3 py-2">مشاهده آخرین وضعیت فاکتور ها</h3>
+    <h3 class="font-weight-medium mx-3 py-2">
+      مشاهده آخرین وضعیت صورت حساب ها
+    </h3>
     <v-card
       v-for="invoice in getStatusInvoicesData?.data"
       :key="invoice"
@@ -15,7 +17,7 @@
       <!-- info -->
 
       <div class="pa-2">
-        <h4 class="font-weight-medium my-2">مشخصات فاکتور:</h4>
+        <h4 class="font-weight-medium my-2">مشخصات صورت حساب:</h4>
       </div>
 
       <v-card
@@ -59,7 +61,7 @@
       <!-- error -->
 
       <div class="pa-2">
-        <h4 class="font-weight-medium my-2">لیست خطا های فاکتور:</h4>
+        <h4 class="font-weight-medium my-2">لیست خطا های صورت حساب:</h4>
       </div>
 
       <v-card
@@ -85,7 +87,7 @@
       <!-- warning -->
 
       <div class="pa-2 mt-5">
-        <h4 class="font-weight-medium">لیست هشدار های فاکتور:</h4>
+        <h4 class="font-weight-medium">لیست هشدار های صورت حساب:</h4>
       </div>
 
       <v-card class="overflow-auto rounded-lg" elevation="1" max-height="350">
@@ -94,7 +96,7 @@
           class="text-center py-3"
           v-if="invoice?.data?.warning.length < 1"
         >
-          <span class="text-center">هیچ هشداری برای فاکتور وجود ندارد</span>
+          <span class="text-center">هیچ هشداری برای صورت حساب وجود ندارد</span>
         </v-card>
         <div class="pa-2" v-for="item in invoice?.data?.warning" :key="item">
           <div class="d-flex my-2">

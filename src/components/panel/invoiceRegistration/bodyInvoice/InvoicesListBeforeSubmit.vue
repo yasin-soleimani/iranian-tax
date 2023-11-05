@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="my-3">
-      <span class="primary--text">لیست فاکتور های ایجاد شده</span>
+      <span class="primary--text">لیست صورت حساب های ایجاد شده</span>
     </div>
     <v-card color="#efe7dd" class="pa-2" elevation="0">
       <v-card

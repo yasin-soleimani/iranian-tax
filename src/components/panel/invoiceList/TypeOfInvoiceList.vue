@@ -2,7 +2,7 @@
   <v-card color="#efe7dd" class="pa-3 my-3 rounded-lg">
     <div class="d-flex justify-start">
       <div class="mx-3">
-        <label for="">نوع فاکتور درخواستی</label>
+        <label for="">نوع صورت حساب درخواستی</label>
         <v-select
           class="my-2"
           v-model="invoiceListType"

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span class="primary--text">محاسبات فاکتور</span>
+    <span class="primary--text">محاسبات صورت حساب</span>
     <v-card
       class="d-flex flex-wrap py-3 px-2 my-3 rounded-lg"
       color="#efe7dd"

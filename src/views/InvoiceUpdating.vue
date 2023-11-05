@@ -1,15 +1,15 @@
 <template>
   <v-card color="transparent" class="ma-2 pa-3 rounded-lg" elevation="0">
-    <span class="ma-2 pt-5">سرآمد فاکتور</span>
+    <span class="ma-2 pt-5">سرآمد صورت حساب</span>
     <!-- header invoice updating -->
     <header-invoice />
 
-    <!-- <span class="ma-2 pt-5">مشخصات پرداخت فاکتور</span> -->
+    <!-- <span class="ma-2 pt-5">مشخصات پرداخت صورت حساب</span> -->
 
     <!-- payment invoice updating -->
     <!-- <payment-invoice /> -->
 
-    <span class="ma-2 pt-5">بدنه فاکتور</span>
+    <span class="ma-2 pt-5">بدنه صورت حساب</span>
 
     <!-- body invoice updating -->
 
@@ -35,7 +35,6 @@ export default Vue.extend({
 
   methods: {
     submitInvoiceUpdatingForm() {
-      console.log("invoice updated:::", this.getInvoiceUpdating);
       store.dispatch("panel/sendUpdatedInvoice");
     },
   },

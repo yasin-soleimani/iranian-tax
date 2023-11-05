@@ -357,7 +357,7 @@
         color="green"
         :disabled="getInvoicesListBodyDataBeforeSubmit.length === 0"
         block
-        >ثبت فاکتور</v-btn
+        >ثبت صورت حساب</v-btn
       >
     </v-card>
   </v-card>
