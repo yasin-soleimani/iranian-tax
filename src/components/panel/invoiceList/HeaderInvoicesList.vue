@@ -9,7 +9,7 @@
       هیچ موردی یافت نشد
     </h4>
 
-    <v-table v-else>
+    <v-table>
       <thead>
         <tr>
           <th
@@ -41,13 +41,14 @@
               {{ getInvoiceIds.includes(item._id) ? "انتخاب شده" : "انتخاب" }}
             </v-btn>
           </td>
-          <td class="primary--text text-center">
+          <!-- <td class="primary--text text-center">
             {{ showBuyerType(item.header.tob) }}
           </td>
+          
           <td class="text-center">
             {{ item.header.tbill + " ریال " }}
-          </td>
-          <td class="text-center">
+          </td> -->
+          <!-- <td class="text-center">
             {{ convertToPersianDate(item.header.Indati2m) }}
           </td>
           <td class="text-center">
@@ -55,10 +56,11 @@
           </td>
           <td class="text-center">
             {{ item.header.tins }}
-          </td>
+          </td> -->
           <td class="text-center">
             {{ item.header.tvam + " ریال " }}
           </td>
+
           <td
             class="text-center"
             :class="!item.header.trn ? 'error--text' : 'success--text'"

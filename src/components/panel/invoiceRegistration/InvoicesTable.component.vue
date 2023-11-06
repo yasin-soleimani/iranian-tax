@@ -393,12 +393,12 @@ export default Vue.extend({
         mu: "0",
         nw: "0",
         fee: "0",
-        cfee: "0",
-        cut: "0",
-        exr: "0",
-        ssrv: "0",
-        sscv: "0",
-        prdis: "0",
+        cfee: null,
+        cut: null,
+        exr: null,
+        ssrv: null,
+        sscv: null,
+        prdis: null,
         dis: "0",
         adis: "0",
         vra: "0",
@@ -427,12 +427,12 @@ export default Vue.extend({
           mu: "0",
           nw: "0",
           fee: "0",
-          cfee: "0",
-          cut: "0",
-          exr: "0",
-          ssrv: "0",
-          sscv: "0",
-          prdis: "0",
+          cfee: null,
+          cut: null,
+          exr: null,
+          ssrv: null,
+          sscv: null,
+          prdis: null,
           dis: "0",
           adis: "0",
           vra: "0",
@@ -492,32 +492,34 @@ export default Vue.extend({
       return this.body[index].fee;
     },
 
-    setCfeeValue(event: string, index: number) {
+    setCfeeValue(event: null, index: number) {
       this.body[index].cfee = event;
       return this.body[index].cfee;
     },
 
-    setCutValue(event: string, index: number) {
+    setCutValue(event: null, index: number) {
       this.body[index].cut = event;
       return this.body[index].cut;
     },
 
-    setExrValue(event: string, index: number) {
+    setExrValue(event: null, index: number) {
       this.body[index].exr = event;
       return this.body[index].exr;
     },
 
-    setSsrvValue(event: string, index: number) {
+    setSsrvValue(event: null, index: number) {
       this.body[index].ssrv = event;
       return this.body[index].ssrv;
     },
 
-    setSscvValue(event: string, index: number) {
+    setSscvValue(event: null, index: number) {
       this.body[index].sscv = event;
       return this.body[index].sscv;
     },
 
-    setPrdisValue(event: string, index: number) {
+    // calculate
+
+    setPrdisValue(event: null, index: number) {
       this.body[index].prdis = event;
       return this.body[index].prdis;
     },

@@ -39,9 +39,9 @@
       <div v-if="false" class="d-flex align-center parent-input mx-2">
         <span class="pt-0 mx-3"> تاریخ کوتاژ اظهار نامه گمرکی : </span>
 
-        <div>
+        <!-- <div>
           <date-picker v-model="$v.cdcd.$model" />
-        </div>
+        </div> -->
       </div>
 
       <div v-if="false" class="d-flex align-center parent-input mx-2">
@@ -221,24 +221,24 @@ export default Vue.extend({
     },
 
     // cdcd
-    cdcd: {
-      get(): string {
-        var datetime = store.state.panel.moadianInvoiceHeader.cdcd; // anything
-        var date = new Date(datetime);
+    // cdcd: {
+    //   get(): string {
+    //     var datetime = store.state.panel.moadianInvoiceHeader.cdcd; // anything
+    //     var date = new Date(datetime);
 
-        var result = date.toLocaleDateString("en").split("/").reverse(); // 10/29/2013
-        const resultTime = result[0] + "/" + result[1] + "/" + result[2];
-        const resultDate = moment(resultTime, "YYYY/MM/DD")
-          .locale("fa")
-          .format("YYYY/MM/DD");
-        return resultDate;
-      },
-      set(value: string): void {
-        const time = moment(value, "jYYYY/jMM/jDD").locale("en").toDate();
+    //     var result = date.toLocaleDateString("en").split("/").reverse(); // 10/29/2013
+    //     const resultTime = result[0] + "/" + result[1] + "/" + result[2];
+    //     const resultDate = moment(resultTime, "YYYY/MM/DD")
+    //       .locale("fa")
+    //       .format("YYYY/MM/DD");
+    //     return resultDate;
+    //   },
+    //   set(value: string): void {
+    //     const time = moment(value, "jYYYY/jMM/jDD").locale("en").toDate();
 
-        store.dispatch("panel/setCdcdInInvoice", new Date(time).getTime());
-      },
-    },
+    //     store.dispatch("panel/setCdcdInInvoice", new Date(time).getTime());
+    //   },
+    // },
 
     // cdcd errors
     cdcdErrors(): string[] {

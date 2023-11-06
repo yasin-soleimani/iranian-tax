@@ -9,17 +9,17 @@ export interface MoadianInvoiceHeader {
   ins: string; // موضوع صورتحساب
   tins: string; // شماره اقتصادی  فروشنده
   tob: string; // نوع شخص خریدار
-  bid: string; // شماره/شناسه  ملی/شناسه مشاركت  مدنی/كد فراگیر خریدار
+  bid: null; // شماره/شناسه  ملی/شناسه مشاركت  مدنی/كد فراگیر خریدار
   tinb: string; //شماره اقتصادی خریدار
-  sbc: string; //كد شعبه فروشنده
-  bpc: string; // كد پستی خریدار
-  bbc: string; // كد شعبه خریدار
-  ft: string; // نوع پرواز
-  bpn: string; // شماره گذرنامه خریدار
+  sbc: null | string; //كد شعبه فروشنده
+  bpc: null | string; // كد پستی خریدار
+  bbc: null; // كد شعبه خریدار
+  ft: null | string; // نوع پرواز
+  bpn: null | string; // شماره گذرنامه خریدار
   scln: string; // شماره پروانه گمركی
-  cdcd: string; // تاریخ کوتاژ
+  cdcd: null | string; // تاریخ کوتاژ
   cdcn: string; // شماره کوتاژ
-  scc: string; // كد گمرک محل اظهار
+  scc: null | string; // كد گمرک محل اظهار
   crn: string; //شناسه یکتای ثبت  قرارداد فروشنده
   billid: string; // شماره اشتراک/ شناسه  قبض بهره بردار
   tprdis: string; // مجموع مبلغ قبل از  كسر تخفیف
@@ -29,8 +29,8 @@ export interface MoadianInvoiceHeader {
   todam: string; // مجموع سایر مالیات،  عوارض و وجوه قانونی
   tbill: string; // مجموع صورتحساب
   tonw: string; // مجموع وزن خالص
-  torv: string; // مجموع ارزش ریالی
-  tocv: string; // مجموع ارزش ارزی
+  torv: null | string; // مجموع ارزش ریالی
+  tocv: null | string; // مجموع ارزش ارزی
   setm: string; // روش تسویه
   cap: string; // مبلغ پرداختی نقدی
   insp: string; // مبلغ پرداختی نسیه

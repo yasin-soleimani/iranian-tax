@@ -105,7 +105,7 @@ export const PANEL_MUTATIONS: MutationTree<PanelState> = {
   },
 
   // set bid
-  [MUTATIONS.panel.setBidInInvoice](state, value: string): void {
+  [MUTATIONS.panel.setBidInInvoice](state, value: null): void {
     state.moadianInvoiceHeader.bid = value;
   },
 
@@ -175,7 +175,7 @@ export const PANEL_MUTATIONS: MutationTree<PanelState> = {
   },
 
   // set bbc
-  [MUTATIONS.panel.setBbcInInvoice](state, value: string): void {
+  [MUTATIONS.panel.setBbcInInvoice](state, value: null): void {
     state.moadianInvoiceHeader.bbc = value;
   },
 

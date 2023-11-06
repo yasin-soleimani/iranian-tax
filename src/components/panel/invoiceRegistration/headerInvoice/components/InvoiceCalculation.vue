@@ -188,11 +188,11 @@ export default Vue.extend({
       return store.state.panel.moadianInvoiceHeader.tbill;
     },
 
-    tocv(): string {
+    tocv(): null | string {
       return store.state.panel.moadianInvoiceHeader.tocv;
     },
 
-    torv(): string {
+    torv(): null | string {
       return store.state.panel.moadianInvoiceHeader.torv;
     },
 

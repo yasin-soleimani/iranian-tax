@@ -4,7 +4,7 @@ export interface MoadianInvoiceBody {
   am: number; // تعداد/مقدار
   mu: number | null; // واحد اندازهگیری
   nw: number | null; // وزن خالص
-  fee: number; // مبلغ واحد
+  fee: number | null; // مبلغ واحد
   cfee: number | null; // میزان ارز
   cut: number | null; // نوع ارز
   exr: number | null; // نرخ برابری ارز با ریال

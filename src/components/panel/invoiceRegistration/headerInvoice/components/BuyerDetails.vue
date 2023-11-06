@@ -387,7 +387,7 @@ export default Vue.extend({
 
     // ft
     ft: {
-      get(): string {
+      get(): null | string {
         return store.state.panel.moadianInvoiceHeader.ft;
       },
       set(value: number): void {

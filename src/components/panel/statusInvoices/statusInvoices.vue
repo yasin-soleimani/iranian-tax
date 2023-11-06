@@ -70,6 +70,13 @@
         elevation="1"
         max-height="350"
       >
+        <v-card
+          color="#efe7dd"
+          class="text-center py-3"
+          v-if="invoice?.data?.error.length < 1"
+        >
+          <span class="text-center">درخواست شما در حال انتظار است</span>
+        </v-card>
         <div class="pa-2" v-for="item in invoice?.data?.error" :key="item">
           <div class="d-flex my-2">
             <span>موقعیت فیلد:</span>

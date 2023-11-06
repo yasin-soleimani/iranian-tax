@@ -49,13 +49,13 @@
       ></v-text-field>
     </div>
 
-    <div v-if="true" class="d-flex align-center mx-2">
+    <!-- <div v-if="true" class="d-flex align-center mx-2">
       <span class="pt-0 mx-3 input"
         >تاریخ و زمان ایجاد صورت حساب الکترونیکی :
       </span>
 
       <date-picker v-model="$v.Indati2m.$model" />
-    </div>
+    </div> -->
     <div class="d-flex align-center mx-2">
       <span class="pt-0 mx-3"> تاریخ و زمان صدور صورت حساب الکترونیکی: </span>
 
